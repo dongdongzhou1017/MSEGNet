@@ -7,7 +7,7 @@ This work is under review in [IEEE Transactions on Instrumentation and Measureme
 
 The structure of MSEGNet is shown as:
 
-![MSEGNet](./images/SingleChannelNet.png)
+![MSEGNet](./images/MSEGNet.png)
 
 
 ## Environment ##
