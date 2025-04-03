@@ -8,7 +8,7 @@ This work is under review in [IEEE Transactions on Instrumentation and Measureme
 The structure of MSEGNet is shown as:
 
 ![MSEGNet](./images/MSEGNet.png)
-
+The architecture of our proposed MSEGNet model.  consists of two main components: the feature extraction module (FEM) and the long-term dependency learning module (LDLM).
 
 ## Environment ##
 
