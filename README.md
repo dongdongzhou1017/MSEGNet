@@ -36,7 +36,7 @@ Data preparation
 1. The format of data and label are .h5 and .csv, respectively. 
 2. Construction of Different EEG Input Lengths: 
 ![contextual input](./images/contextual-input.png)
-The construction of inputs involves varying lengths, denoted by $\mathbf{X}_{m}$, $\mathbf{P}_{m}$, \textcolor{red}{$\mathbf{S}_{m}$},  \textcolor{red}{$\mathbf{C9}_{m}$},
+The construction of inputs involves varying lengths, denoted by {X}_{m}, {P}_{m}, {S}_{m},  {C9}_{m},
  and  \textcolor{red}{$\mathbf{C15}_{m}$}, corresponding to the conventional 30s input, preceding 60s input, succeeding 60s input, contextual 90s input,
  and contextual 150s input, respectively. $\mathbf{P}_{m}$ contains $\mathbf{X}_{m-1}$, $\mathbf{X}_{m}$, \textcolor{red}{$\mathbf{S}_{m}$} consists of
  $\mathbf{X}_{m}$, $\mathbf{X}_{m+1}$,  \textcolor{red}{$\mathbf{C9}_{m}$} comprises $\mathbf{X}_{m-1}$, $\mathbf{X}_{m}$ and $\mathbf{X}_{m+1}$,  \textcolor{red}{$\mathbf{C15}_{m}$} is
