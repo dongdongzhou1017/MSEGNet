@@ -35,7 +35,7 @@ We evaluated our MSEGNet with [CCSHS](https://sleepdata.org/datasets/ccshs) and 
 Data preparation
 
 1. The format of data and label are .h5 and .csv, respectively. 
-2. Many-to-one scheme: 
+2. Construction of Different EEG Input Lengths: 
 ![contextual input](./images/contextual-input.png)
 
 Run SCNet.py to get the confusion matrix of test set of each fold. 
