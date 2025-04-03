@@ -36,11 +36,7 @@ Data preparation
 1. The format of data and label are .h5 and .csv, respectively. 
 2. Construction of Different EEG Input Lengths: 
 ![contextual input](./images/contextual-input.png)
-The construction of inputs involves varying lengths, denoted by {X}_{m}, {P}_{m}, {S}_{m},  {C9}_{m},
- and  \textcolor{red}{$\mathbf{C15}_{m}$}, corresponding to the conventional 30s input, preceding 60s input, succeeding 60s input, contextual 90s input,
- and contextual 150s input, respectively. $\mathbf{P}_{m}$ contains $\mathbf{X}_{m-1}$, $\mathbf{X}_{m}$, \textcolor{red}{$\mathbf{S}_{m}$} consists of
- $\mathbf{X}_{m}$, $\mathbf{X}_{m+1}$,  \textcolor{red}{$\mathbf{C9}_{m}$} comprises $\mathbf{X}_{m-1}$, $\mathbf{X}_{m}$ and $\mathbf{X}_{m+1}$,  \textcolor{red}{$\mathbf{C15}_{m}$} is
- comprised of $\mathbf{X}_{m-2}$, $\mathbf{X}_{m-1}$, $\mathbf{X}_{m}$, $\mathbf{X}_{m+1}$ and $\mathbf{X}_{m+2}$.  \textcolor{red}{The labels for the different input lengths corresponded to the subscript notation, where the labels for $\mathbf{P}_{m}$, $\mathbf{S}_{m}$,  \textcolor{red}{$\mathbf{C9}_{m}$}, and  \textcolor{red}{$\mathbf{C15}_{m}$} are denoted as $y_{m}$.}
+The construction of inputs involves varying lengths, denoted by Xm, Pm, Sm, C9m, and C15m, corresponding to the conventional 30s input, preceding 60s input, succeeding 60s input, contextual 90s input, and contextual 150s input, respectively. Pm contains Xm-1, Xm, Sm consists of Xm, Xm+1,  C9m comprises Xm-1, Xm and Xm+1,  C15m is comprised of Xm-2, Xm-1, Xm, Xm+1 and Xm+2. The labels for the different input lengths corresponded to the subscript notation, where the labels for $Pm, Sm, C9m, and C15m are denoted as ym
 
 Run construction_model_input.m to construct preceding 60s, succeeding 60s, contextual 90s, and contetual 90s input.
 
