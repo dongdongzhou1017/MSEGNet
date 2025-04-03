@@ -27,7 +27,7 @@ The structure of MSEGNet is shown as:
 
 
 ## Evaluation datasets ##
-We evaluated our SingelChannelNet with [CCSHS](https://sleepdata.org/datasets/ccshs) and [Sleep-EDF](https://www.physionet.org/content/sleep-edfx/1.0.0/) datasets.
+We evaluated our MSEGNet with [CCSHS](https://sleepdata.org/datasets/ccshs) and [Sleep-EDF](https://www.physionet.org/content/sleep-edfx/1.0.0/) datasets.
 
 
 
