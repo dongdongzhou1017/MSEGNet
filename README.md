@@ -3,11 +3,11 @@
 
 Code for the model in the paper MSEGNet: A Hybrid Multi-Scale CNN with Temporal-Contextual Modeling for Enhanced Sleep Staging Using Single-Channel EEG by Dongdong Zhou, Qi Xu, Lauri Kettunen, Qiang Zhang, Fengyu Cong.
 
-This work has been accepted for publication in [Biomedical signal processing and control](https://www.sciencedirect.com/science/article/pii/S1746809422001148).
+This work is under review in [IEEE Transactions on Instrumentation and Measurement](https://ieee-ims.org/publication/ieee-tim).
 
-The structure of SingleChannelNet is shown as:
+The structure of MSEGNet is shown as:
 
-![SingleChannelNet](./images/SingleChannelNet.png)
+![MSEGNet](./images/SingleChannelNet.png)
 
 
 ## Environment ##
