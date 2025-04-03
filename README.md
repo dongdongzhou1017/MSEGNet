@@ -49,17 +49,7 @@ Run Performance_metrics.py to get the performance metrics: overall accuracy (ACC
     
 
 ## Citation ##
-If you find this useful, please cite our work as follows:
 
-        @article{zhou2022singlechannelnet,
-          title={Singlechannelnet: A model for automatic sleep stage classification with raw single-channel eeg},
-          author={Zhou, Dongdong and Wang, Jian and Hu, Guoqiang and Zhang, Jiacheng and Li, Fan and Yan, Rui and Kettunen, Lauri and Chang, Zheng and Xu, Qi and Cong, Fengyu},
-          journal={Biomedical Signal Processing and Control},
-          volume={75},
-          pages={103592},
-          year={2022},
-          publisher={Elsevier}
-        }
 ## Licence ##
 - For academic and non-commercial use only
 - Apache License 2.0
