@@ -15,13 +15,13 @@ The structure of MSEGNet is shown as:
 - CUDA toolkit 12.6 and CuDNN v8.1.0
 - Python 3.10.9
 - tensorflow-gpu (2.10.0)
-- matplotlib (3.2.2)
-- scikit-learn (0.23.1)
-- scipy (1.5.0)
-- numpy (1.16.0)
-- pandas (1.1.0)
-- mne (0.21.2)
-- h5py (2.10.0)
+- matplotlib (3.7.0)
+- scikit-learn (1.5.0)
+- scipy (1.10.1)
+- numpy (1.23.5)
+- pandas (1.5.3)
+- mne (1.5.0)
+- h5py (3.7.0)
 
 
 
