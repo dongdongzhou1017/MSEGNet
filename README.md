@@ -8,7 +8,7 @@ This work is under review in [IEEE Transactions on Instrumentation and Measureme
 The structure of MSEGNet is shown as:
 
 ![MSEGNet](./images/MSEGNet.png)
-The architecture of our proposed MSEGNet model.  consists of two main components: the feature extraction module (FEM) and the long-term dependency learning module (LDLM).
+Fig.1 The architecture of our proposed MSEGNet model.  consists of two main components: the feature extraction module (FEM) and the long-term dependency learning module (LDLM).
 
 ## Environment ##
 
@@ -36,7 +36,7 @@ Data preparation
 1. The format of data and label are .h5 and .csv, respectively. 
 2. Construction of Different EEG Input Lengths: 
 ![contextual input](./images/contextual-input.png)
-The construction of inputs involves varying lengths, denoted by Xm, Pm, Sm, C9m, and C15m, corresponding to the conventional 30s input, preceding 60s input, succeeding 60s input, contextual 90s input, and contextual 150s input, respectively. Pm contains Xm-1, Xm, Sm consists of Xm, Xm+1,  C9m comprises Xm-1, Xm and Xm+1,  C15m is comprised of Xm-2, Xm-1, Xm, Xm+1 and Xm+2. The labels for the different input lengths corresponded to the subscript notation, where the labels for $Pm, Sm, C9m, and C15m are denoted as ym
+Fig.2 The construction of inputs involves varying lengths, denoted by Xm, Pm, Sm, C9m, and C15m, corresponding to the conventional 30s input, preceding 60s input, succeeding 60s input, contextual 90s input, and contextual 150s input, respectively. Pm contains Xm-1, Xm, Sm consists of Xm, Xm+1,  C9m comprises Xm-1, Xm and Xm+1,  C15m is comprised of Xm-2, Xm-1, Xm, Xm+1 and Xm+2. The labels for the different input lengths corresponded to the subscript notation, where the labels for $Pm, Sm, C9m, and C15m are denoted as ym
 
 Run construction_model_input.m to construct preceding 60s, succeeding 60s, contextual 90s, and contetual 90s input.
 
