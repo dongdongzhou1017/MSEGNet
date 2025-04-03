@@ -37,7 +37,9 @@ Data preparation
 2. Construction of Different EEG Input Lengths: 
 ![contextual input](./images/contextual-input.png)
 
-Run SCNet.py to get the confusion matrix of test set of each fold. 
+Run construction_model_input.m to construct preceding 60s, succeeding 60s, contextual 90s, and contetual 90s input.
+
+Run MSEGNet.py to get the confusion matrix of test set of each fold. 
 
 The mean coufusion matrix of 5-fold cross validation. 
 
