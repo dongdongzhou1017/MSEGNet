@@ -42,9 +42,7 @@ Run construction_model_input.m to construct preceding 60s, succeeding 60s, conte
 
 Run MSEGNet.py to train the MSEGNet model and save the model weights. 
 
-The mean coufusion matrix of 5-fold cross validation. 
-
-The dimension of the mean confusion matrix is 6*6. The 6th row and column are the sum value.
+Run Model_test.py to get the confusion matrix and accuracy. The dimension of the confusion matrix is 6*6. The 6th row and column are the sum values.
 
 Run Calculate_reportsvalue.py to get the performance metrics: per-class metrics: precision (PR), recall (RE), F1 score (F1), and overall metrics: mean precision (MPR), mean recall(MRE), mean F1 score (MF1) overall accuracy (ACC), and Cohen’s kappa coefficient (K).
 
