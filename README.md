@@ -13,9 +13,8 @@ The structure of MSEGNet is shown as:
 ## Environment ##
 
 - CUDA toolkit 11.6 and CuDNN v7.6.4
-- Python 3.6.7
-- tensorflow-gpu (1.12.0)
-- Keras (2.2.4)
+- Python 3.10.9
+- tensorflow-gpu (2.10.0)
 - matplotlib (3.2.2)
 - scikit-learn (0.23.1)
 - scipy (1.5.0)
