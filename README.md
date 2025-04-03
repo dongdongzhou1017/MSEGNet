@@ -40,7 +40,7 @@ Fig.2 The construction of inputs involves varying lengths, denoted by Xm, Pm, Sm
 
 Run construction_model_input.m to construct preceding 60s, succeeding 60s, contextual 90s, and contetual 90s input.
 
-Run MSEGNet.py to get the confusion matrix of test set of each fold. 
+Run MSEGNet.py to train the MSEGNet model and save the model weights. 
 
 The mean coufusion matrix of 5-fold cross validation. 
 
